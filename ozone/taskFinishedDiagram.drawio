@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T07:06:33.472Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="O-NrgWAf7tIIZjCc1fdq" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-16T07:14:42.284Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="RpwVK-prdNYs3UZCe54j" version="14.4.8" type="github">
   <diagram id="mfo0MHqqbjoZu6nFf7Bk" name="Page-1">
     <mxGraphModel dx="2365" dy="1430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -10,8 +10,11 @@
         <mxCell id="fYWtDo8HfFxg8vgEfj35-2" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=28;" edge="1" parent="1" source="fYWtDo8HfFxg8vgEfj35-4" target="fYWtDo8HfFxg8vgEfj35-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="fYWtDo8HfFxg8vgEfj35-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fYWtDo8HfFxg8vgEfj35-4" target="fYWtDo8HfFxg8vgEfj35-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="fYWtDo8HfFxg8vgEfj35-4" value="已完成任务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="70" y="360" width="240" height="120" as="geometry" />
+          <mxGeometry x="50" y="390" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="fYWtDo8HfFxg8vgEfj35-5" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=28;" edge="1" parent="1" source="fYWtDo8HfFxg8vgEfj35-6" target="fYWtDo8HfFxg8vgEfj35-18">
           <mxGeometry relative="1" as="geometry">
@@ -19,23 +22,23 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fYWtDo8HfFxg8vgEfj35-6" value="Dr. Elephant：收集指标给出优化建议" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
-          <mxGeometry x="440" y="140" width="290" height="120" as="geometry" />
+          <mxGeometry x="440" y="140" width="330" height="130" as="geometry" />
         </mxCell>
         <mxCell id="fYWtDo8HfFxg8vgEfj35-7" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=28;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fYWtDo8HfFxg8vgEfj35-8" target="fYWtDo8HfFxg8vgEfj35-18">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="840" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fYWtDo8HfFxg8vgEfj35-8" value="JFR：解析jfr文件中JVM信息，内存，IO，线程等" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="440" y="360" width="290" height="120" as="geometry" />
+        <mxCell id="fYWtDo8HfFxg8vgEfj35-8" value="JFR：解析jfr文件中JVM信息，内存，IO，线程等" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fillColor=#ffcc99;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="440" y="295" width="330" height="130" as="geometry" />
         </mxCell>
         <mxCell id="fYWtDo8HfFxg8vgEfj35-9" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=28;" edge="1" parent="1" source="fYWtDo8HfFxg8vgEfj35-10" target="fYWtDo8HfFxg8vgEfj35-18">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="840" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="fYWtDo8HfFxg8vgEfj35-10" value="QA：给出异常诊断和解决方法" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="440" y="580" width="290" height="120" as="geometry" />
+        <mxCell id="fYWtDo8HfFxg8vgEfj35-10" value="QA：给出异常诊断和解决方法" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="440" y="450" width="330" height="130" as="geometry" />
         </mxCell>
         <mxCell id="fYWtDo8HfFxg8vgEfj35-13" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=28;" edge="1" parent="1" source="fYWtDo8HfFxg8vgEfj35-4" target="fYWtDo8HfFxg8vgEfj35-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -44,7 +47,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fYWtDo8HfFxg8vgEfj35-18" value="任务的诊断信息" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="890" y="360" width="240" height="120" as="geometry" />
+          <mxGeometry x="910" y="390" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fYWtDo8HfFxg8vgEfj35-25" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fYWtDo8HfFxg8vgEfj35-20" target="fYWtDo8HfFxg8vgEfj35-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fYWtDo8HfFxg8vgEfj35-20" value="Prometheus+Timeline2：&lt;br&gt;记录队列和任务历史资源" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="440" y="600" width="330" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
