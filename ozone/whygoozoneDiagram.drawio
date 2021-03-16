@@ -1,25 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T03:06:18.209Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="AbNcF-XGV1aJGtalDeB6" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-16T03:08:59.354Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="a7bSCr2YtmmkpnT7ZzNV" version="14.4.8" type="github">
   <diagram id="07fea595-8f29-1299-0266-81d95cde20df" name="Page-1">
     <mxGraphModel dx="1577" dy="31" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jTvALQWRv7avRCUGCPY--657" value="&lt;font style=&quot;font-size: 36px&quot;&gt;为什么需要&lt;br&gt;Go Ozone客户端&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a0522d;strokeColor=#6D1F00;fontSize=28;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="jTvALQWRv7avRCUGCPY--657" value="&lt;font style=&quot;font-size: 36px&quot;&gt;为什么需要&lt;br&gt;Go Ozone客户端&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffff88;fontSize=28;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="380" y="1120" width="370" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="jTvALQWRv7avRCUGCPY--658" value="云盘使用&lt;br&gt;go开发" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;fontSize=28;strokeColor=#C73500;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="jTvALQWRv7avRCUGCPY--658" value="云盘使用&lt;br&gt;go开发" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#b1ddf0;fontSize=28;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="710" y="1130" width="210" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="jTvALQWRv7avRCUGCPY--659" value="方便与go&lt;br&gt;&amp;nbsp;hdfs兼容" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f0a30a;fontSize=28;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="jTvALQWRv7avRCUGCPY--659" value="方便与go&lt;br&gt;&amp;nbsp;hdfs兼容" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#cdeb8b;fontSize=28;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="625" y="1400" width="210" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="jTvALQWRv7avRCUGCPY--660" value="减少维护的模块" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6d8764;fontSize=28;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="jTvALQWRv7avRCUGCPY--660" value="减少维护的模块" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;fontSize=28;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="210" y="1130" width="210" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="jTvALQWRv7avRCUGCPY--661" value="相比于java，go语言性能好" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e3c800;fontSize=28;strokeColor=#B09500;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="jTvALQWRv7avRCUGCPY--661" value="相比于java，go语言性能好" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffcccc;fontSize=28;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="300" y="1400" width="210" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="jTvALQWRv7avRCUGCPY--662" value="业内无可用&lt;br&gt;go版本客户端" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e51400;fontSize=28;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="jTvALQWRv7avRCUGCPY--662" value="业内无可用&lt;br&gt;go版本客户端" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffcc99;fontSize=28;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="460" y="950" width="210" height="210" as="geometry" />
         </mxCell>
       </root>
