@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-16T06:42:00.933Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="ABsrCmxnK_017HqBa9vZ" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-16T06:45:19.529Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="LmHD9E2nNT6RuzWEcrCz" version="14.4.8" type="github">
   <diagram name="Page-1" id="9c096ad6-e400-ecc8-3e38-643d2caac077">
-    <mxGraphModel dx="2703" dy="1471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2365" dy="1288" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="8E8hszirOWY40QSbOUDw-16" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=28;" edge="1" parent="1" source="8E8hszirOWY40QSbOUDw-2" target="8E8hszirOWY40QSbOUDw-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="8E8hszirOWY40QSbOUDw-2" value="RM：队列信息，&lt;br style=&quot;font-size: 28px;&quot;&gt;任务基本信息" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="8E8hszirOWY40QSbOUDw-2" value="RM：队列信息，&lt;br style=&quot;font-size: 28px&quot;&gt;任务基本信息(定时Cache)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="450" y="270" width="290" height="120" as="geometry" />
         </mxCell>
         <mxCell id="8E8hszirOWY40QSbOUDw-17" style="edgeStyle=none;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=28;" edge="1" parent="1" source="8E8hszirOWY40QSbOUDw-4">
@@ -62,7 +62,7 @@
         <mxCell id="8E8hszirOWY40QSbOUDw-18" value="HBaseGet" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="840" y="600" width="250" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="8E8hszirOWY40QSbOUDw-20" value="App的完整信息" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+        <mxCell id="8E8hszirOWY40QSbOUDw-20" value="App的完整信息&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="1160" y="480" width="250" height="120" as="geometry" />
         </mxCell>
         <mxCell id="8E8hszirOWY40QSbOUDw-23" value="查看运行中Task的现场信息：环境、进程、日志等" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
