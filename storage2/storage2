@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T10:47:23.234Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="nI8ETDVKP3H9mCjFsCPd" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-06T11:17:19.851Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="R5VZVeEmkBqjFLTw4s2j" version="14.4.8" type="github">
   <diagram id="stRr_hL2yNdLe775PcAu" name="Page-1">
-    <mxGraphModel dx="946" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2365" dy="1430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -27,7 +27,7 @@
         <mxCell id="09OHKTPslA3s94s2pAdv-7" value="storage2 ${conf_file}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="320" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="09OHKTPslA3s94s2pAdv-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="09OHKTPslA3s94s2pAdv-8">
+        <mxCell id="09OHKTPslA3s94s2pAdv-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="09OHKTPslA3s94s2pAdv-8" target="09OHKTPslA3s94s2pAdv-72">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="440" y="686" as="targetPoint" />
           </mxGeometry>
@@ -44,8 +44,8 @@
         <mxCell id="09OHKTPslA3s94s2pAdv-16" value="for循环.db上传日志" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="185" y="480" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="09OHKTPslA3s94s2pAdv-17" value="单个.db上传日志" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="666" width="100" height="20" as="geometry" />
+        <mxCell id="09OHKTPslA3s94s2pAdv-17" value="加锁单个.db，上传日志" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="666" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="09OHKTPslA3s94s2pAdv-18" value="加载单个配置文件，生成.db配置" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="195" y="240" width="190" height="20" as="geometry" />
@@ -77,7 +77,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="09OHKTPslA3s94s2pAdv-28" value="App Mode" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="40" width="610" height="440" as="geometry">
+          <mxGeometry x="440" y="40" width="610" height="420" as="geometry">
             <mxRectangle x="450" y="50" width="30" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -110,7 +110,7 @@
           <mxGeometry x="20" y="5" width="530" height="90" as="geometry" />
         </mxCell>
         <mxCell id="09OHKTPslA3s94s2pAdv-49" value="arbitrary" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="09OHKTPslA3s94s2pAdv-28">
-          <mxGeometry x="20" y="350" width="590" height="90" as="geometry">
+          <mxGeometry x="20" y="350" width="590" height="70" as="geometry">
             <mxRectangle x="20" y="240" width="460" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -120,14 +120,91 @@
         <mxCell id="09OHKTPslA3s94s2pAdv-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="09OHKTPslA3s94s2pAdv-67" target="09OHKTPslA3s94s2pAdv-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="09OHKTPslA3s94s2pAdv-67" value="lzo 压缩，生成. db文件" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=20;" vertex="1" parent="1">
+        <mxCell id="09OHKTPslA3s94s2pAdv-67" value="lzo 压缩，检测，生成. db文件" style="whiteSpace=wrap;html=1;fontStyle=1;startSize=20;" vertex="1" parent="1">
           <mxGeometry x="60" y="360" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="09OHKTPslA3s94s2pAdv-70" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="09OHKTPslA3s94s2pAdv-28" target="09OHKTPslA3s94s2pAdv-67">
+        <mxCell id="09OHKTPslA3s94s2pAdv-70" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.836;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="09OHKTPslA3s94s2pAdv-28" target="09OHKTPslA3s94s2pAdv-67">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280" y="450" as="sourcePoint" />
             <mxPoint x="330" y="400" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="09OHKTPslA3s94s2pAdv-72" target="09OHKTPslA3s94s2pAdv-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-72" value="检测createTime，距现在斐波那契分钟上传，同时上传5个" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="09OHKTPslA3s94s2pAdv-73" target="09OHKTPslA3s94s2pAdv-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-73" value="检测hadoop环境，配置ugi，安装hadoop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="510" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="09OHKTPslA3s94s2pAdv-75" target="09OHKTPslA3s94s2pAdv-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-75" value="hadoop/gohdfs上传" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="09OHKTPslA3s94s2pAdv-79" target="09OHKTPslA3s94s2pAdv-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="09OHKTPslA3s94s2pAdv-79" target="09OHKTPslA3s94s2pAdv-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-79" value="gohdfs上传&lt;br&gt;失败" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="905" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="09OHKTPslA3s94s2pAdv-84" target="09OHKTPslA3s94s2pAdv-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-84" value="比较hdfs文件和本地文件大小" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="885" y="686" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="09OHKTPslA3s94s2pAdv-86" target="09OHKTPslA3s94s2pAdv-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="09OHKTPslA3s94s2pAdv-86" target="09OHKTPslA3s94s2pAdv-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-86" value="大小一致" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="786" y="676" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="09OHKTPslA3s94s2pAdv-90" target="09OHKTPslA3s94s2pAdv-110">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-90" value="pingback .db文件和上传耗时，size_error信息" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="688" width="130" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-92" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="955" y="600" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-93" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="690" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="09OHKTPslA3s94s2pAdv-94" target="09OHKTPslA3s94s2pAdv-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-94" value="hadoop重新&lt;br&gt;上传一次" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="995" y="600" width="75" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-96" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="995" y="510" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="09OHKTPslA3s94s2pAdv-107" target="09OHKTPslA3s94s2pAdv-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-107" value="pingback .db文件和上传耗时，.db文件变成.delete" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="598" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-109" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="610" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="09OHKTPslA3s94s2pAdv-110" value="结束" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="535" y="746" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
