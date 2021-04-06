@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T11:47:56.195Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="nIPJKGLux1Urf08tW-ch" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-06T11:53:35.432Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="Y0jwjjULfMXVmSoPoznn" version="14.4.8" type="github">
   <diagram id="zweJXpipiNRjvk7SLQ9g" name="Page-1">
     <mxGraphModel dx="1577" dy="953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -27,23 +27,32 @@
         <mxCell id="MnYerAKChLvde_xR_4qI-16" value="For loop，多协程并发" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="310" y="130" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MnYerAKChLvde_xR_4qI-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;" edge="1" parent="1" source="MnYerAKChLvde_xR_4qI-60" target="MnYerAKChLvde_xR_4qI-63">
+        <mxCell id="MnYerAKChLvde_xR_4qI-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=22;" edge="1" parent="1" source="MnYerAKChLvde_xR_4qI-60" target="MnYerAKChLvde_xR_4qI-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MnYerAKChLvde_xR_4qI-60" value="日志切割，过滤，压缩，检测，生成.db文件，&lt;br&gt;路径支持通配符，支持指定到文件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="670" y="20" width="480" height="300" as="geometry" />
+        <mxCell id="MnYerAKChLvde_xR_4qI-60" value="路径通配符匹配或直接指定到具体文件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="670" y="130" width="480" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MnYerAKChLvde_xR_4qI-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=22;" edge="1" parent="1" source="MnYerAKChLvde_xR_4qI-63" target="MnYerAKChLvde_xR_4qI-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MnYerAKChLvde_xR_4qI-63" value="上传+重试" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="670" y="437.5" width="480" height="292.5" as="geometry" />
+        <mxCell id="MnYerAKChLvde_xR_4qI-63" value="上传+重试，最大重试三次，三次失败后放弃，检测.db的createTime，每小时重试一次" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="670" y="460" width="480" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MnYerAKChLvde_xR_4qI-65" value="对.db文件进行加锁&lt;br&gt;上传日志" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="705" y="354" width="200" height="60" as="geometry" />
+          <mxGeometry x="700" y="390" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MnYerAKChLvde_xR_4qI-66" value="pingback结果及配置" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="90" y="483.75" width="230" height="200" as="geometry" />
+          <mxGeometry x="320" y="460" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MnYerAKChLvde_xR_4qI-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=22;" edge="1" parent="1" source="MnYerAKChLvde_xR_4qI-69" target="MnYerAKChLvde_xR_4qI-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MnYerAKChLvde_xR_4qI-69" value="日志切割，过滤，压缩，检测，生成.db文件" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="670" y="290" width="480" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MnYerAKChLvde_xR_4qI-72" value="日志处理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="800" y="240" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
