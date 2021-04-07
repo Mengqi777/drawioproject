@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-06T12:03:05.207Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="kforpC5UETT-86Y_-AvO" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-07T01:38:14.821Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="y9OwJDQusAVZIpdPZ0rM" version="14.4.8" type="github">
   <diagram id="zweJXpipiNRjvk7SLQ9g" name="Page-1">
     <mxGraphModel dx="1577" dy="953" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -45,7 +45,7 @@
         <mxCell id="MnYerAKChLvde_xR_4qI-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=22;" edge="1" parent="1" source="MnYerAKChLvde_xR_4qI-66" target="MnYerAKChLvde_xR_4qI-83">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MnYerAKChLvde_xR_4qI-66" value="pingback结果及配置，成功mv成.delete，失败放弃" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="MnYerAKChLvde_xR_4qI-66" value="pingback结果及配置，成功上传的mv .db文件成.delete" style="rounded=0;whiteSpace=wrap;html=1;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="310" y="670" width="290" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MnYerAKChLvde_xR_4qI-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=22;" edge="1" parent="1" source="MnYerAKChLvde_xR_4qI-69" target="MnYerAKChLvde_xR_4qI-63">
