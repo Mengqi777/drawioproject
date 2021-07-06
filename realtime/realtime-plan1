@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T08:10:27.711Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.8.4" etag="OQcMqd4OTHJovUhHnto9" type="github"><diagram id="KAPNKIhohjHZBMGyTvI8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-06T10:13:37.108Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="lmrWwB1JPUFCFot9zfZD" version="14.8.4" type="github">
+  <diagram id="KAPNKIhohjHZBMGyTvI8" name="Page-1">
+    <mxGraphModel dx="1113" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bfHGN_DGVea41ShIiPB_-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontFamily=Times New Roman;" edge="1" parent="1" source="bfHGN_DGVea41ShIiPB_-1" target="bfHGN_DGVea41ShIiPB_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bfHGN_DGVea41ShIiPB_-1" value="申请topic" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="90" y="150" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bfHGN_DGVea41ShIiPB_-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontFamily=Times New Roman;" edge="1" parent="1" source="bfHGN_DGVea41ShIiPB_-2" target="bfHGN_DGVea41ShIiPB_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bfHGN_DGVea41ShIiPB_-2" value="配置tail2kafka/flume" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="280" y="150" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bfHGN_DGVea41ShIiPB_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontFamily=Times New Roman;" edge="1" parent="1" source="bfHGN_DGVea41ShIiPB_-4" target="bfHGN_DGVea41ShIiPB_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bfHGN_DGVea41ShIiPB_-4" value="生成配置文件&lt;br style=&quot;font-size: 18px;&quot;&gt;部署tail2kafka/flume" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="470" y="150" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bfHGN_DGVea41ShIiPB_-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontFamily=Times New Roman;" edge="1" parent="1" source="bfHGN_DGVea41ShIiPB_-6" target="bfHGN_DGVea41ShIiPB_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bfHGN_DGVea41ShIiPB_-6" value="日志上传到Kafka" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="660" y="150" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bfHGN_DGVea41ShIiPB_-8" value="实时平台/hdfs/hbase/http" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="850" y="150" width="170" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
